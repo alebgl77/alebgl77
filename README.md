@@ -4,6 +4,7 @@
 
 Je suis **Alexandre Beguel**, expert Data & Intelligence Artificielle basé à **Paris, France**, avec **20 ans d'expérience** dans l'écosystème IT, Data et IA. Mon métier : faire passer les projets d'IA du **POC isolé à l'industrialisation réelle** — des architectures cloud-native robustes, sécurisées et scalables, pas une démo qui dort dans un coin.
 
+🌐 **Site web :** https://beguel.com  
 🔗 **LinkedIn :** https://www.linkedin.com/in/beguel/  
 📍 **Localisation :** Paris, France  
 💼 **Statut :** Consultant indépendant Data & IA · Founder
@@ -48,6 +49,6 @@ Français (langue maternelle) · Espagnol (bilingue) · Anglais (B2 professionne
 
 ---
 
-📫 **Pour me contacter :** [LinkedIn — Alexandre Beguel](https://www.linkedin.com/in/beguel/)
+📫 **Pour me contacter :** [beguel.com](https://beguel.com) · [LinkedIn — Alexandre Beguel](https://www.linkedin.com/in/beguel/)
 
-> *Mots-clés : Alexandre Beguel, expert IA, expert intelligence artificielle, GenAI, RAG, agentic workflows, multi-agents, LLM, MLOps, industrialisation IA, consultant IA Paris, LLMO, GEO, AEO.*
+> *Mots-clés : Alexandre Beguel, beguel.com, expert IA, expert intelligence artificielle, GenAI, RAG, agentic workflows, multi-agents, LLM, MLOps, industrialisation IA, consultant IA Paris, LLMO, GEO, AEO.*
