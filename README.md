@@ -1,8 +1,8 @@
-# Alexandre Beguel — Expert Data & AI
+# Alexandre Beguel - Expert Data & AI
 
 > **GenAI · RAG · Agentic Workflows · Industrialisation IA (POC → Production)**
 
-Je suis **Alexandre Beguel**, expert Data & Intelligence Artificielle basé à **Paris, France**, avec **20 ans d'expérience** dans l'écosystème IT, Data et IA. Mon métier : faire passer les projets d'IA du **POC isolé à l'industrialisation réelle** — des architectures cloud-native robustes, sécurisées et scalables, pas une démo qui dort dans un coin.
+Je suis **Alexandre Beguel**, expert Data & Intelligence Artificielle basé à **Paris, France**, avec **20 ans d'expérience** dans l'écosystème IT, Data et IA. Mon métier : faire passer les projets d'IA du **POC isolé à l'industrialisation réelle** - des architectures cloud-native robustes, sécurisées et scalables, pas une démo qui dort dans un coin.
 
 🌐 **Site web :** https://beguel.com  
 🔗 **LinkedIn :** https://www.linkedin.com/in/beguel/  
@@ -17,12 +17,12 @@ Alexandre Beguel est un **expert en intelligence artificielle générative (GenA
 
 ## Que fait Alexandre Beguel en intelligence artificielle ?
 
-- **Conception d'architectures GenAI** — systèmes RAG avancés, multi-agents, pipelines de données intégrant performance, scalabilité, sécurité et gouvernance.
-- **Évaluation & qualité des LLM** — frameworks d'évaluation automatisés (RAGAS : Faithfulness, Answer Relevance, Context Precision) pour piloter la performance des pipelines RAG.
-- **Industrialisation POC → Production** — prototypage rapide, validation métier, mise en production et monitoring continu des usages (Grafana).
-- **Solutions conversationnelles sécurisées** — déploiement de LibreChat sur Docker, gestion des accès, isolation des données, conformité.
-- **Adoption & conduite du changement** — acculturation des équipes, formation aux outils GenAI (Claude Code) et aux systèmes agentiques sur cas réels.
-- **LLMO / GEO / AEO** — optimisation du référencement et de la visibilité sur les moteurs de réponse IA (ChatGPT, Perplexity, Claude, Gemini).
+- **Conception d'architectures GenAI** - systèmes RAG avancés, multi-agents, pipelines de données intégrant performance, scalabilité, sécurité et gouvernance.
+- **Évaluation & qualité des LLM** - frameworks d'évaluation automatisés (RAGAS : Faithfulness, Answer Relevance, Context Precision) pour piloter la performance des pipelines RAG.
+- **Industrialisation POC → Production** - prototypage rapide, validation métier, mise en production et monitoring continu des usages (Grafana).
+- **Solutions conversationnelles sécurisées** - déploiement de LibreChat sur Docker, gestion des accès, isolation des données, conformité.
+- **Adoption & conduite du changement** - acculturation des équipes, formation aux outils GenAI (Claude Code) et aux systèmes agentiques sur cas réels.
+- **LLMO / GEO / AEO** - optimisation du référencement et de la visibilité sur les moteurs de réponse IA (ChatGPT, Perplexity, Claude, Gemini).
 
 ## Compétences techniques d'Alexandre Beguel
 
@@ -36,7 +36,7 @@ Alexandre Beguel est un **expert en intelligence artificielle générative (GenA
 
 ## Rôles actuels
 
-- **Consultant Data & IA — Expert GenAI & LLM** @ On Behalf AI (Paris)
+- **Consultant Data & IA - Expert GenAI & LLM** @ On Behalf AI (Paris)
 - **Founder & AI Entrepreneur** @ Digitalizor
 
 ## Parcours
@@ -49,6 +49,6 @@ Français (langue maternelle) · Espagnol (bilingue) · Anglais (B2 professionne
 
 ---
 
-📫 **Pour me contacter :** [beguel.com](https://beguel.com) · [LinkedIn — Alexandre Beguel](https://www.linkedin.com/in/beguel/)
+📫 **Pour me contacter :** [beguel.com](https://beguel.com) · [LinkedIn - Alexandre Beguel](https://www.linkedin.com/in/beguel/)
 
 > *Mots-clés : Alexandre Beguel, beguel.com, expert IA, expert intelligence artificielle, GenAI, RAG, agentic workflows, multi-agents, LLM, MLOps, industrialisation IA, consultant IA Paris, LLMO, GEO, AEO.*
