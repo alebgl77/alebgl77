@@ -137,7 +137,7 @@ Alexandre Beguel a occupé des rôles de **Chief AI Officer**, **Manager Growth 
 
 ## Langues
 
-Français (langue maternelle) · Espagnol (bilingue) · Anglais (B2 professionnel) · Italien (notions)
+Français (langue maternelle) · Espagnol (bilingue) · Anglais (niveau professionnel) · Italien (notions)
 
 ---
 
