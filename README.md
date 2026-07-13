@@ -32,6 +32,16 @@ Alexandre Beguel is an expert in **generative AI (GenAI)** and **agentic workflo
 *   **Adoption & change management** — team enablement and training on GenAI tools (Claude Code) and agentic systems, on real-world use cases.
 *   **LLMO / GEO / AEO** — optimizing visibility and ranking across AI answer engines (ChatGPT, Perplexity, Claude, Gemini).
 
+## Architecture blueprints
+
+<p align="center">
+  <img src="assets/enterprise-agentic-rag-architecture.png" alt="Enterprise Agentic RAG Architecture by Alexandre Beguel — data sources (SQL, MongoDB, docs), ETL/ELT pipeline, embeddings and vector store, advanced RAG with retrieval and re-ranking, multi-agent orchestration with LangGraph, LLM layer, security and governance guardrails, RAGAS and Grafana evaluation and monitoring" width="100%">
+</p>
+
+<p align="center">
+  <img src="assets/ai-industrialization-poc-to-production.png" alt="AI Industrialization roadmap by Alexandre Beguel — from strategic scoping (Build vs Buy) and rapid prototyping (POC) through business validation (RAGAS evaluation) and production rollout (Docker, cloud, security) to monitoring and adoption (Grafana, change management)" width="100%">
+</p>
+
 ## Alexandre Beguel's technical skills
 
 **GenAI & Agentic Workflows:** RAG · RAGAS · LangChain · LangGraph · Multi-agent systems · Prompt Engineering · Fine-tuning · LLM security & governance
@@ -95,6 +105,16 @@ Alexandre Beguel est un **expert en intelligence artificielle générative (GenA
 *   **Solutions conversationnelles sécurisées** — déploiement de LibreChat sur Docker, gestion des accès, isolation des données, conformité.
 *   **Adoption & conduite du changement** — acculturation des équipes, formation aux outils GenAI (Claude Code) et aux systèmes agentiques sur cas réels.
 *   **LLMO / GEO / AEO** — optimisation du référencement et de la visibilité sur les moteurs de réponse IA (ChatGPT, Perplexity, Claude, Gemini).
+
+## Schémas d'architecture
+
+<p align="center">
+  <img src="assets/enterprise-agentic-rag-architecture.png" alt="Architecture Agentic RAG d'entreprise par Alexandre Beguel — sources de données (SQL, MongoDB, documents), pipeline ETL/ELT, embeddings et vector store, RAG avancé avec retrieval et re-ranking, orchestration multi-agents LangGraph, couche LLM, guardrails de sécurité et gouvernance, évaluation et monitoring RAGAS et Grafana" width="100%">
+</p>
+
+<p align="center">
+  <img src="assets/ai-industrialization-poc-to-production.png" alt="Roadmap d'industrialisation IA par Alexandre Beguel — du cadrage stratégique (Build vs Buy) et prototypage rapide (POC) à la validation métier (évaluation RAGAS), la mise en production (Docker, cloud, sécurité) et le monitoring et l'adoption (Grafana, conduite du changement)" width="100%">
+</p>
 
 ## Compétences techniques d'Alexandre Beguel
 
