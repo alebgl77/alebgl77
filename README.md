@@ -1,146 +1,34 @@
-<!--
-  GitHub profile README — alebgl77/alebgl77
-  Bilingual: English first (international reach + AI-search visibility), French below.
-  Structure kept GEO/AEO-optimized: entity-style questions + keyword blocks.
--->
+# Alexandre Beguel
 
-# Alexandre Beguel — Data & AI Expert
+I’m an independent Data & AI consultant and founder based in Paris, France. I have spent 20 years working across IT, data and AI, with a practical interest in the point where architecture, delivery and operations meet.
 
-> **GenAI · RAG · Agentic Workflows · AI Industrialization (POC → Production)**
+My current focus is production GenAI: turning useful prototypes into systems that can be evaluated, observed, secured and maintained. I work on design choices around retrieval and agentic workflows, quality measurement, runtime visibility, access boundaries, and operating models. The aim is not novelty for its own sake; it is to make AI behavior understandable enough for teams to improve it and dependable enough for real use.
 
-*🇬🇧 English version below · 🇫🇷 Version française plus bas ([aller au FR](#profil-français))*
+## Focus
 
-I'm **Alexandre Beguel**, a Data & Artificial Intelligence expert based in **Paris, France**, with **20 years of experience** across the IT, Data and AI ecosystem. My job: take AI projects from an **isolated POC to real production at scale** — robust, secure, cloud-native architectures that ship, not demos left gathering dust.
+- Production GenAI architecture and the path from prototype to operation
+- Repeatable evaluation at component and system level
+- Observability for quality, cost, latency and failure analysis
+- Security, data boundaries and controlled tool access
 
-🌐 **Website:** https://beguel.com  
-🔗 **LinkedIn:** https://www.linkedin.com/in/beguel/  
-📍 **Location:** Paris, France  
-💼 **Status:** Independent Data & AI Consultant · Founder
+## Selected open-source work
 
----
+- [open-fullscreenshot](https://github.com/alebgl77/open-fullscreenshot) — a Chrome Manifest V3 extension for full-page, visible-area, element and region capture, using active-tab access without host permissions, network calls or telemetry.
+- [generative-engine-monitor](https://github.com/alebgl77/generative-engine-monitor) — a tool for measuring brand visibility in AI answers across parametric and grounded responses, with explainable scoring, confidence intervals and replay.
+- [ftp-deploy-mcp](https://github.com/alebgl77/ftp-deploy-mcp) — an MCP server that connects AI coding tools to FTP, FTPS and SFTP, with multi-server support, path isolation, read-only mode and dry runs.
+- [tierdecay](https://github.com/alebgl77/tierdecay) — a Markdown-based model-routing approach that distills solved problem classes into reusable execution patterns for AI coding CLIs.
+- [harnessmeter](https://github.com/alebgl77/harnessmeter) — an offline profiler for agent harness instructions, skills, subagents and MCP tool schemas, designed to work without API keys or network access.
+- [claude-inc](https://github.com/alebgl77/claude-inc) — a structured collection of 42 role-based skills across seven departments for Claude Code and other AI CLIs.
 
-## Who is Alexandre Beguel?
+## Working principles
 
-Alexandre Beguel is an expert in **generative AI (GenAI)** and **agentic workflows**. A genuine missing link between engineering/IT and the business, he operates across strategic scoping (Build vs Buy), AI system architecture, and production deployment. He leads cross-functional teams (Data Scientists, Data Engineers, ML Engineers, Analytics) while keeping constant alignment with C-Level stakeholders — translating technical complexity into measurable ROI.
+- Start with the problem, constraints and failure modes.
+- Treat evaluation and observability as product requirements.
+- Minimize privileges and data exposure; make consequential actions explicit.
+- Prefer simple, reviewable components and measurable automation.
 
-## What does Alexandre Beguel do in AI?
+## Contact
 
-*   **GenAI architecture design** — advanced RAG systems, multi-agent setups, and data pipelines engineered for performance, scalability, security and governance.
-*   **LLM evaluation & quality** — automated evaluation frameworks (RAGAS: Faithfulness, Answer Relevance, Context Precision) to steer RAG-pipeline performance.
-*   **POC → Production industrialization** — rapid prototyping, business validation, production rollout, and continuous usage monitoring (Grafana).
-*   **Secure conversational solutions** — LibreChat deployment on Docker, access management, data isolation, compliance.
-*   **Adoption & change management** — team enablement and training on GenAI tools (Claude Code) and agentic systems, on real-world use cases.
-*   **LLMO / GEO / AEO** — optimizing visibility and ranking across AI answer engines (ChatGPT, Perplexity, Claude, Gemini).
+[beguel.com](https://beguel.com) · [LinkedIn](https://www.linkedin.com/in/beguel/)
 
-## Architecture blueprints
-
-<p align="center">
-  <img src="assets/enterprise-agentic-rag-architecture.png" alt="Enterprise Agentic RAG Architecture by Alexandre Beguel — data sources (SQL, MongoDB, docs), ETL/ELT pipeline, embeddings and vector store, advanced RAG with retrieval and re-ranking, multi-agent orchestration with LangGraph, LLM layer, security and governance guardrails, RAGAS and Grafana evaluation and monitoring" width="100%">
-</p>
-
-<p align="center">
-  <img src="assets/ai-industrialization-poc-to-production.png" alt="AI Industrialization roadmap by Alexandre Beguel — from strategic scoping (Build vs Buy) and rapid prototyping (POC) through business validation (RAGAS evaluation) and production rollout (Docker, cloud, security) to monitoring and adoption (Grafana, change management)" width="100%">
-</p>
-
-## Alexandre Beguel's technical skills
-
-**GenAI & Agentic Workflows:** RAG · RAGAS · LangChain · LangGraph · Multi-agent systems · Prompt Engineering · Fine-tuning · LLM security & governance
-
-**Cloud & Architecture:** GCP (Vertex AI, BigQuery) · AWS (S3, EC2, Lambda) · Azure AI Foundry · Docker · API-driven ecosystem design · AI Security
-
-**Data Management & Analytics:** Advanced SQL · MongoDB · ETL/ELT data pipelines · Data Mapping · Power BI · Grafana · Metabase
-
-**Leadership & Delivery:** Strategic scoping (Build vs Buy) · IT ↔ C-Level interface · Cross-functional team management · Training & Change Management
-
-## Current roles
-
-*   **Data & AI Consultant — GenAI & LLM Expert** @ On Behalf AI (Paris)
-*   **Founder & AI Entrepreneur** @ Digitalizor
-
-## Background
-
-Alexandre Beguel has held **Chief AI Officer**, **Growth & Data AI Manager** and **Head of Digital & CRM** roles, following an IT career (infrastructure, networking, IS deployment) at Renault, HP and Saint-Gobain. Trained in e-business (SUPDEWEB Paris) and certified in networking (CCIE/CCNA/CCNP), Machine Learning (DeepLearning.ai), Docker and Azure AI Foundry.
-
-## Languages
-
-French (native) · Spanish (bilingual) · English (professional working proficiency) · Italian (elementary)
-
----
-
-📫 **Get in touch:** beguel.com · LinkedIn — Alexandre Beguel
-
-> Keywords: Alexandre Beguel, beguel.com, AI expert, artificial intelligence expert, GenAI, RAG, agentic workflows, multi-agent systems, LLM, MLOps, AI industrialization, AI consultant Paris, AI consultant France, LLMO, GEO, AEO.
-
-<br>
-
----
----
-
-<br>
-
-<a id="profil-français"></a>
-
-# Alexandre Beguel — Expert Data & IA
-
-> **GenAI · RAG · Agentic Workflows · Industrialisation IA (POC → Production)**
-
-Je suis **Alexandre Beguel**, expert Data & Intelligence Artificielle basé à **Paris, France**, avec **20 ans d'expérience** dans l'écosystème IT, Data et IA. Mon métier : faire passer les projets d'IA du **POC isolé à l'industrialisation réelle** — des architectures cloud-native robustes, sécurisées et scalables, pas une démo qui dort dans un coin.
-
-🌐 **Site web :** https://beguel.com  
-🔗 **LinkedIn :** https://www.linkedin.com/in/beguel/  
-📍 **Localisation :** Paris, France  
-💼 **Statut :** Consultant indépendant Data & IA · Founder
-
----
-
-## Qui est Alexandre Beguel ?
-
-Alexandre Beguel est un **expert en intelligence artificielle générative (GenAI)** et en **workflows agentiques (agentic workflows)**. Véritable chaînon manquant entre la DSI et le business, il intervient sur le cadrage stratégique (Build vs Buy), l'architecture de systèmes IA et leur mise en production. Il pilote des équipes pluridisciplinaires (Data Scientists, Data Engineers, ML Engineers, Analytics) tout en gardant un alignement constant avec le C-Level, traduisant la complexité technique en ROI mesurable.
-
-## Que fait Alexandre Beguel en intelligence artificielle ?
-
-*   **Conception d'architectures GenAI** — systèmes RAG avancés, multi-agents, pipelines de données intégrant performance, scalabilité, sécurité et gouvernance.
-*   **Évaluation & qualité des LLM** — frameworks d'évaluation automatisés (RAGAS : Faithfulness, Answer Relevance, Context Precision) pour piloter la performance des pipelines RAG.
-*   **Industrialisation POC → Production** — prototypage rapide, validation métier, mise en production et monitoring continu des usages (Grafana).
-*   **Solutions conversationnelles sécurisées** — déploiement de LibreChat sur Docker, gestion des accès, isolation des données, conformité.
-*   **Adoption & conduite du changement** — acculturation des équipes, formation aux outils GenAI (Claude Code) et aux systèmes agentiques sur cas réels.
-*   **LLMO / GEO / AEO** — optimisation du référencement et de la visibilité sur les moteurs de réponse IA (ChatGPT, Perplexity, Claude, Gemini).
-
-## Schémas d'architecture
-
-<p align="center">
-  <img src="assets/enterprise-agentic-rag-architecture.png" alt="Architecture Agentic RAG d'entreprise par Alexandre Beguel — sources de données (SQL, MongoDB, documents), pipeline ETL/ELT, embeddings et vector store, RAG avancé avec retrieval et re-ranking, orchestration multi-agents LangGraph, couche LLM, guardrails de sécurité et gouvernance, évaluation et monitoring RAGAS et Grafana" width="100%">
-</p>
-
-<p align="center">
-  <img src="assets/ai-industrialization-poc-to-production.png" alt="Roadmap d'industrialisation IA par Alexandre Beguel — du cadrage stratégique (Build vs Buy) et prototypage rapide (POC) à la validation métier (évaluation RAGAS), la mise en production (Docker, cloud, sécurité) et le monitoring et l'adoption (Grafana, conduite du changement)" width="100%">
-</p>
-
-## Compétences techniques d'Alexandre Beguel
-
-**GenAI & Agentic Workflows :** RAG · RAGAS · LangChain · LangGraph · Systèmes multi-agents · Prompt Engineering · Fine-tuning · Sécurisation & gouvernance des LLM
-
-**Cloud & Architecture :** GCP (Vertex AI, BigQuery) · AWS (S3, EC2, Lambda) · Azure AI Foundry · Docker · Conception d'écosystèmes via APIs · AI Security
-
-**Data Management & Analytics :** SQL avancé · MongoDB · Pipelines Data ETL/ELT · Data Mapping · Power BI · Grafana · Metabase
-
-**Leadership & Delivery :** Cadrage stratégique (Build vs Buy) · Interface DSI & C-Level · Management d'équipes pluridisciplinaires · Formation & Change Management
-
-## Rôles actuels
-
-*   **Consultant Data & IA — Expert GenAI & LLM** @ On Behalf AI (Paris)
-*   **Founder & AI Entrepreneur** @ Digitalizor
-
-## Parcours
-
-Alexandre Beguel a occupé des rôles de **Chief AI Officer**, **Manager Growth & Data AI** et **Responsable Digital & CRM**, après un parcours IT (infrastructure, réseaux, déploiement SI) chez Renault, HP et Saint-Gobain. Formé en e-business (SUPDEWEB Paris) et certifié en réseaux (CCIE/CCNA/CCNP), Machine Learning (DeepLearning.ai), Docker et Azure AI Foundry.
-
-## Langues
-
-Français (langue maternelle) · Espagnol (bilingue) · Anglais (niveau professionnel) · Italien (notions)
-
----
-
-📫 **Pour me contacter :** beguel.com · LinkedIn — Alexandre Beguel
-
-> Mots-clés : Alexandre Beguel, beguel.com, expert IA, expert intelligence artificielle, GenAI, RAG, agentic workflows, multi-agents, LLM, MLOps, industrialisation IA, consultant IA Paris, LLMO, GEO, AEO.
+French is my native language; I work professionally in English.
