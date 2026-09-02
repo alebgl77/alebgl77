@@ -11,6 +11,171 @@ My current focus is production GenAI: turning useful prototypes into systems tha
 - Observability for quality, cost, latency and failure analysis
 - Security, data boundaries and controlled tool access
 
+## Tools and technologies
+
+I design, deploy and operate maintainable agentic AI systems with observability and security built in.
+
+<div align="center">
+<table>
+<tr>
+<td align="center" width="110">
+  <img src="https://github.com/langchain-ai.png?size=96" width="48" height="48" alt="LangGraph">
+  <br>LangGraph
+</td>
+<td align="center" width="110">
+  <img src="https://github.com/crewAIInc.png?size=96" width="48" height="48" alt="CrewAI">
+  <br>CrewAI
+</td>
+<td align="center" width="110">
+  <img src="https://github.com/NousResearch.png?size=96" width="48" height="48" alt="Hermes Agent">
+  <br>Hermes Agent
+</td>
+<td align="center" width="110">
+  <img src="https://github.com/langchain-ai.png?size=96" width="48" height="48" alt="LangChain">
+  <br>LangChain
+</td>
+<td align="center" width="110">
+  <img src="https://github.com/openai.png?size=96" width="48" height="48" alt="OpenAI Agents">
+  <br>OpenAI Agents
+</td>
+<td align="center" width="110">
+  <img src="https://github.com/modelcontextprotocol.png?size=96" width="48" height="48" alt="MCP">
+  <br>MCP
+</td>
+</tr>
+<tr>
+<td align="center" width="110">
+  <img src="https://github.com/anthropics.png?size=96" width="48" height="48" alt="Claude Code">
+  <br>Claude Code
+</td>
+<td align="center" width="110">
+  <img src="https://github.com/openai.png?size=96" width="48" height="48" alt="Codex">
+  <br>Codex
+</td>
+<td align="center" width="110">
+  <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="48" height="48" alt="Hugging Face">
+  <br>Hugging Face
+</td>
+<td align="center" width="110">
+  <img src="https://skillicons.dev/icons?i=pytorch" width="48" height="48" alt="PyTorch">
+  <br>PyTorch
+</td>
+<td align="center" width="110">
+  <img src="https://github.com/vllm-project.png?size=96" width="48" height="48" alt="vLLM">
+  <br>vLLM
+</td>
+<td align="center" width="110">
+  <img src="https://github.com/BerriAI.png?size=96" width="48" height="48" alt="LiteLLM">
+  <br>LiteLLM
+</td>
+</tr>
+<tr>
+<td align="center" width="110">
+  <img src="https://github.com/ollama.png?size=96" width="48" height="48" alt="Ollama">
+  <br>Ollama
+</td>
+<td align="center" width="110">
+  <img src="https://skillicons.dev/icons?i=fastapi" width="48" height="48" alt="FastAPI">
+  <br>FastAPI
+</td>
+<td align="center" width="110">
+  <img src="https://github.com/explodinggradients.png?size=96" width="48" height="48" alt="RAGAS">
+  <br>RAGAS
+</td>
+<td align="center" width="110">
+  <img src="https://github.com/langfuse.png?size=96" width="48" height="48" alt="Langfuse">
+  <br>Langfuse
+</td>
+<td align="center" width="110">
+  <img src="https://github.com/open-telemetry.png?size=96" width="48" height="48" alt="OpenTelemetry">
+  <br>OpenTelemetry
+</td>
+<td align="center" width="110">
+  <img src="https://github.com/Arize-ai.png?size=96" width="48" height="48" alt="Arize Phoenix">
+  <br>Arize Phoenix
+</td>
+</tr>
+<tr>
+<td align="center" width="110">
+  <img src="https://skillicons.dev/icons?i=docker" width="48" height="48" alt="Docker">
+  <br>Docker
+</td>
+<td align="center" width="110">
+  <img src="https://skillicons.dev/icons?i=kubernetes" width="48" height="48" alt="Kubernetes">
+  <br>Kubernetes
+</td>
+<td align="center" width="110">
+  <img src="https://skillicons.dev/icons?i=terraform" width="48" height="48" alt="Terraform">
+  <br>Terraform
+</td>
+<td align="center" width="110">
+  <img src="https://skillicons.dev/icons?i=aws" width="48" height="48" alt="AWS">
+  <br>AWS
+</td>
+<td align="center" width="110">
+  <img src="https://skillicons.dev/icons?i=gcp" width="48" height="48" alt="GCP">
+  <br>GCP
+</td>
+<td align="center" width="110">
+  <img src="https://skillicons.dev/icons?i=azure" width="48" height="48" alt="Azure AI">
+  <br>Azure AI
+</td>
+</tr>
+<tr>
+<td align="center" width="110">
+  <img src="https://skillicons.dev/icons?i=prometheus" width="48" height="48" alt="Prometheus">
+  <br>Prometheus
+</td>
+<td align="center" width="110">
+  <img src="https://skillicons.dev/icons?i=grafana" width="48" height="48" alt="Grafana">
+  <br>Grafana
+</td>
+<td align="center" width="110">
+  <img src="https://skillicons.dev/icons?i=postgres" width="48" height="48" alt="PostgreSQL">
+  <br>PostgreSQL
+</td>
+<td align="center" width="110">
+  <img src="https://github.com/pgvector.png?size=96" width="48" height="48" alt="pgvector">
+  <br>pgvector
+</td>
+<td align="center" width="110">
+  <img src="https://skillicons.dev/icons?i=redis" width="48" height="48" alt="Redis">
+  <br>Redis
+</td>
+<td align="center" width="110">
+  <img src="https://github.com/qdrant.png?size=96" width="48" height="48" alt="Qdrant">
+  <br>Qdrant
+</td>
+</tr>
+<tr>
+<td align="center" width="110">
+  <img src="https://skillicons.dev/icons?i=python" width="48" height="48" alt="Python">
+  <br>Python
+</td>
+<td align="center" width="110">
+  <img src="https://skillicons.dev/icons?i=typescript" width="48" height="48" alt="TypeScript">
+  <br>TypeScript
+</td>
+<td align="center" width="110">
+  <img src="https://skillicons.dev/icons?i=javascript" width="48" height="48" alt="JavaScript">
+  <br>JavaScript
+</td>
+<td align="center" width="110">
+  <img src="https://skillicons.dev/icons?i=bash" width="48" height="48" alt="Bash">
+  <br>Bash
+</td>
+<td align="center" width="110">
+  <img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git">
+  <br>Git
+</td>
+<td align="center" width="110">
+  <img src="https://skillicons.dev/icons?i=githubactions" width="48" height="48" alt="GitHub Actions">
+  <br>GitHub Actions
+</td>
+</tr>
+</table>
+</div>
+
 ## Selected open-source work
 
 - [open-fullscreenshot](https://github.com/alebgl77/open-fullscreenshot) — a Chrome Manifest V3 extension for full-page, visible-area, element and region capture, using active-tab access without host permissions, network calls or telemetry.
