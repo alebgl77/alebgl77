@@ -204,12 +204,13 @@ I design, deploy and operate maintainable agentic AI systems with observability 
 
 ## Selected open-source work
 
-- [open-fullscreenshot](https://github.com/alebgl77/open-fullscreenshot) — a Chrome Manifest V3 extension for full-page, visible-area, element and region capture, using active-tab access without host permissions, network calls or telemetry.
-- [generative-engine-monitor](https://github.com/alebgl77/generative-engine-monitor) — a tool for measuring brand visibility in AI answers across parametric and grounded responses, with explainable scoring, confidence intervals and replay.
-- [ftp-deploy-mcp](https://github.com/alebgl77/ftp-deploy-mcp) — an MCP server that connects AI coding tools to FTP, FTPS and SFTP, with multi-server support, path isolation, read-only mode and dry runs.
-- [tierdecay](https://github.com/alebgl77/tierdecay) — a Markdown-based model-routing approach that distills solved problem classes into reusable execution patterns for AI coding CLIs.
-- [harnessmeter](https://github.com/alebgl77/harnessmeter) — an offline profiler for agent harness instructions, skills, subagents and MCP tool schemas, designed to work without API keys or network access.
-- [claude-inc](https://github.com/alebgl77/claude-inc) — a structured collection of 42 role-based skills across seven departments for Claude Code and other AI CLIs.
+- **[claude-inc](https://github.com/alebgl77/claude-inc)**: 50 role-based AI employees across eight departments, coordinated by one CEO/router, for Claude Code and other AI CLIs.
+- **[tierdecay](https://github.com/alebgl77/tierdecay)**: a self-distilling model router for AI coding CLIs that learns task-class routing from execution feedback, using Markdown only and no proxy.
+- **[ftp-deploy-mcp](https://github.com/alebgl77/ftp-deploy-mcp)**: an MCP deployment server for FTP, FTPS and SFTP with multi-server support, path isolation, read-only mode, dry runs and local credentials.
+- **[generative-engine-monitor](https://github.com/alebgl77/generative-engine-monitor)**: measures brand visibility in parametric and grounded AI answers with bootstrap confidence intervals, explainable scoring and zero-cost replay.
+- **[harnessmeter](https://github.com/alebgl77/harnessmeter)**: an offline profiler for CLAUDE.md instructions, skills, subagents and MCP schemas across Claude Code, Codex and Antigravity, with no API keys or network access.
+- **[open-fullscreenshot](https://github.com/alebgl77/open-fullscreenshot)**: a Chrome Manifest V3 capture extension for whole pages, viewports, elements and regions, with no host permissions, network calls or telemetry.
+- **[grafana-llmops-forge](https://github.com/alebgl77/grafana-llmops-forge)**: a dependency-free forge that discovers a Grafana deployment and generates, deploys and visually verifies dashboards for LLM observability, FinOps, agent traces, quality and governance.
 
 ## Working principles
 
