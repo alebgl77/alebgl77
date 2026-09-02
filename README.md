@@ -107,15 +107,6 @@ A focused stack for agentic orchestration, evaluation, serving and cloud-native 
   <br>PostgreSQL
 </td>
 </tr>
-</table>
-</div>
-
-<details>
-<summary>View 24 additional tools and model ecosystems</summary>
-
-### AI development
-
-<table width="100%">
 <tr>
 <td align="center" width="16.66%">
   <img src="https://github.com/langchain-ai.png?size=96" width="48" height="48" alt="LangChain">
@@ -146,11 +137,6 @@ A focused stack for agentic orchestration, evaluation, serving and cloud-native 
   <br>Grok
 </td>
 </tr>
-</table>
-
-### Cloud and data
-
-<table width="100%">
 <tr>
 <td align="center" width="16.66%">
   <img src="https://skillicons.dev/icons?i=aws" width="48" height="48" alt="AWS">
@@ -177,11 +163,6 @@ A focused stack for agentic orchestration, evaluation, serving and cloud-native 
   <br>Qdrant
 </td>
 </tr>
-</table>
-
-### Languages and delivery
-
-<table width="100%">
 <tr>
 <td align="center" width="16.66%">
   <img src="https://skillicons.dev/icons?i=python" width="48" height="48" alt="Python">
@@ -208,11 +189,6 @@ A focused stack for agentic orchestration, evaluation, serving and cloud-native 
   <br>GitHub Actions
 </td>
 </tr>
-</table>
-
-### Models and routing
-
-<table width="100%">
 <tr>
 <td align="center" width="16.66%">
   <img src="https://github.com/google-gemini.png?size=96" width="48" height="48" alt="Gemini">
@@ -240,8 +216,7 @@ A focused stack for agentic orchestration, evaluation, serving and cloud-native 
 </td>
 </tr>
 </table>
-
-</details>
+</div>
 
 ## Working principles
 
@@ -254,4 +229,4 @@ A focused stack for agentic orchestration, evaluation, serving and cloud-native 
 
 [beguel.com](https://beguel.com) · [LinkedIn](https://www.linkedin.com/in/beguel/)
 
-French is my native language; I work professionally in English.
+French is my native language; I work professionally in English and Spanish.
