@@ -91,8 +91,8 @@ I design, deploy and operate maintainable agentic AI systems with observability 
   <br>OpenTelemetry
 </td>
 <td align="center" width="110">
-  <img src="https://github.com/Arize-ai.png?size=96" width="48" height="48" alt="Arize Phoenix">
-  <br>Arize Phoenix
+  <img src="https://github.com/groq.png?size=96" width="48" height="48" alt="Groq">
+  <br>Groq
 </td>
 </tr>
 <tr>
@@ -171,6 +171,32 @@ I design, deploy and operate maintainable agentic AI systems with observability 
 <td align="center" width="110">
   <img src="https://skillicons.dev/icons?i=githubactions" width="48" height="48" alt="GitHub Actions">
   <br>GitHub Actions
+</td>
+</tr>
+<tr>
+<td align="center" width="110">
+  <img src="https://github.com/google-gemini.png?size=96" width="48" height="48" alt="Gemini">
+  <br>Gemini
+</td>
+<td align="center" width="110">
+  <img src="https://github.com/QwenLM.png?size=96" width="48" height="48" alt="Qwen">
+  <br>Qwen
+</td>
+<td align="center" width="110">
+  <img src="https://github.com/zai-org.png?size=96" width="48" height="48" alt="Z.ai">
+  <br>Z.ai
+</td>
+<td align="center" width="110">
+  <img src="https://github.com/deepseek-ai.png?size=96" width="48" height="48" alt="DeepSeek">
+  <br>DeepSeek
+</td>
+<td align="center" width="110">
+  <img src="https://github.com/mistralai.png?size=96" width="48" height="48" alt="Mistral AI">
+  <br>Mistral AI
+</td>
+<td align="center" width="110">
+  <img src="https://github.com/OpenRouterTeam.png?size=96" width="48" height="48" alt="OpenRouter">
+  <br>OpenRouter
 </td>
 </tr>
 </table>
