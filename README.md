@@ -13,8 +13,15 @@ Independent Data & AI consultant and founder based in Paris, with 20 years acros
 - **[tierdecay](https://github.com/alebgl77/tierdecay)**: a self-distilling model router for AI coding CLIs that learns task-class routing from execution feedback, using Markdown only and no proxy.
 - **[harnessmeter](https://github.com/alebgl77/harnessmeter)**: an offline profiler for CLAUDE.md instructions, skills, subagents and MCP schemas across Claude Code, Codex and Antigravity, with no API keys or network access.
 - **[ftp-deploy-mcp](https://github.com/alebgl77/ftp-deploy-mcp)**: an MCP deployment server for FTP, FTPS and SFTP with multi-server support, path isolation, read-only mode, dry runs and local credentials.
-- **[claude-inc](https://github.com/alebgl77/claude-inc)**: 50 role-based AI employees across eight departments, coordinated by one CEO/router, for Claude Code and other AI CLIs.
+- **[claude-inc](https://github.com/alebgl77/claude-inc)**: a Claude Code company framework with peer CEO and CTO executives, eight department charters and 54 skill manuals; selected work runs through the host's agents and permissions, while local project state records tasks, artifacts and reviews.
 - **[open-fullscreenshot](https://github.com/alebgl77/open-fullscreenshot)**: a Chrome Manifest V3 capture extension for whole pages, viewports, elements and regions, with no host permissions, network calls or telemetry.
+
+## Selected upstream contributions
+
+- **[AgentShield](https://github.com/affaan-m/agentshield/pull/123)**: a merged scanner fix that discovers and classifies root `.mcp.json` files so MCP configurations reach security rules, with regression coverage; all 16 review threads were resolved.
+- **[Claude SEO](https://github.com/AgriciDaniel/claude-seo/pull/285)**: improved JSON-LD detection and removed template-expression false positives; the maintainer [confirmed](https://github.com/AgriciDaniel/claude-seo/pull/285#issuecomment-5623681972) it was cherry-picked with authorship preserved into v2.3.0.
+- **[LibreChat](https://github.com/danny-avila/LibreChat/pull/15046)**: a merged documentation fix that replaced a machine-specific agents source path and restored `CLAUDE.md`/`AGENTS.md` parity for auth-cache guidance.
+- **Grafana Plugin Tools**: two scoped merged contributions: [signed-commit contributor guidance](https://github.com/grafana/plugin-tools/pull/2841) and a [Node 24 `.nvmrc` scaffold update](https://github.com/grafana/plugin-tools/pull/2830).
 
 ## Focus
 
