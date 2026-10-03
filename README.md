@@ -23,6 +23,10 @@ Independent Data & AI consultant and founder based in Paris, with 20 years acros
 - **[LibreChat](https://github.com/danny-avila/LibreChat/pull/15046)**: a merged documentation fix that replaced a machine-specific agents source path and restored `CLAUDE.md`/`AGENTS.md` parity for auth-cache guidance.
 - **Grafana Plugin Tools**: two scoped merged contributions: [signed-commit contributor guidance](https://github.com/grafana/plugin-tools/pull/2841) and a [Node 24 `.nvmrc` scaffold update](https://github.com/grafana/plugin-tools/pull/2830).
 
+## Awesome AI Architect
+
+A self-updating map of the GenAI stack, classified automatically from my GitHub stars and open-source projects into 18 AI-engineering categories (agents, RAG, MCP, evals, LLMOps, security and more). Refreshed daily by GitHub Actions: [Markdown list](awesome/) · [interactive explorer](https://alebgl77.github.io/alebgl77/).
+
 ## Focus
 
 - Production GenAI architecture and the path from prototype to operation
