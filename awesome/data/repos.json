@@ -155,7 +155,7 @@
    "homepage": "",
    "language": "Shell",
    "license": "MIT",
-   "stars": 295028,
+   "stars": 295032,
    "forks": 26367,
    "open_issues": 306,
    "topics": [
@@ -198,7 +198,7 @@
    "homepage": "https://aihero.dev/skills",
    "language": "Shell",
    "license": "MIT",
-   "stars": 275598,
+   "stars": 275603,
    "forks": 23118,
    "open_issues": 549,
    "topics": [],
@@ -226,8 +226,8 @@
    "homepage": "https://ecc.tools",
    "language": "JavaScript",
    "license": "MIT",
-   "stars": 272496,
-   "forks": 40686,
+   "stars": 272497,
+   "forks": 40687,
    "open_issues": 340,
    "topics": [
     "ai-agents",
@@ -273,7 +273,7 @@
    "language": "TypeScript",
    "license": "MIT",
    "stars": 243104,
-   "forks": 29148,
+   "forks": 29149,
    "open_issues": 0,
    "topics": [
     "ai-agents",
@@ -412,9 +412,9 @@
    "homepage": "https://www.graphify.com",
    "language": "Python",
    "license": "Apache-2.0",
-   "stars": 123632,
+   "stars": 123633,
    "forks": 11917,
-   "open_issues": 1514,
+   "open_issues": 1515,
    "topics": [
     "ai-agents",
     "antigravity",
@@ -469,7 +469,7 @@
    "homepage": "https://skills.addy.ie",
    "language": "JavaScript",
    "license": "MIT",
-   "stars": 100936,
+   "stars": 100937,
    "forks": 10606,
    "open_issues": 119,
    "topics": [
@@ -569,7 +569,7 @@
    "homepage": "https://deeplivecam.net/",
    "language": "Python",
    "license": "AGPL-3.0",
-   "stars": 96911,
+   "stars": 96912,
    "forks": 14119,
    "open_issues": 50,
    "topics": [
@@ -622,7 +622,7 @@
    "homepage": "https://claude-mem.ai",
    "language": "TypeScript",
    "license": "Apache-2.0",
-   "stars": 95769,
+   "stars": 95771,
    "forks": 8468,
    "open_issues": 88,
    "topics": [
@@ -680,7 +680,7 @@
    "homepage": "https://tasteskill.dev",
    "language": "JavaScript",
    "license": "MIT",
-   "stars": 92419,
+   "stars": 92421,
    "forks": 6272,
    "open_issues": 73,
    "topics": [
@@ -731,8 +731,8 @@
    "homepage": "",
    "language": "Python",
    "license": "MIT",
-   "stars": 90159,
-   "forks": 7930,
+   "stars": 90161,
+   "forks": 7931,
    "open_issues": 207,
    "topics": [
     "agent-infrastructure",
@@ -787,7 +787,7 @@
    "homepage": "https://odysseus-dev.github.io/odysseus",
    "language": "Python",
    "license": "AGPL-3.0",
-   "stars": 89240,
+   "stars": 89241,
    "forks": 1132,
    "open_issues": 1338,
    "topics": [],
@@ -815,7 +815,7 @@
    "homepage": "https://scrapling.readthedocs.io/en/latest/",
    "language": "Python",
    "license": "BSD-3-Clause",
-   "stars": 85540,
+   "stars": 85542,
    "forks": 8766,
    "open_issues": 14,
    "topics": [
@@ -875,7 +875,7 @@
    "license": "MIT",
    "stars": 83369,
    "forks": 11570,
-   "open_issues": 886,
+   "open_issues": 883,
    "topics": [
     "agent",
     "agentic",
@@ -897,7 +897,7 @@
     "typescript"
    ],
    "created_at": "2025-05-07T02:50:19Z",
-   "pushed_at": "2026-10-04T08:36:48Z",
+   "pushed_at": "2026-10-04T09:04:58Z",
    "starred_at": "2026-03-23T09:45:18Z",
    "archived": false,
    "fork": false,
@@ -978,9 +978,9 @@
    "homepage": "",
    "language": "Python",
    "license": "",
-   "stars": 76448,
+   "stars": 76449,
    "forks": 8943,
-   "open_issues": 1621,
+   "open_issues": 1622,
    "topics": [
     "agent-skills",
     "ai-agents",
@@ -1151,7 +1151,7 @@
    "homepage": "https://microsoft.github.io/autogen/",
    "language": "Python",
    "license": "CC-BY-4.0",
-   "stars": 61251,
+   "stars": 61250,
    "forks": 9280,
    "open_issues": 1096,
    "topics": [
@@ -1198,7 +1198,7 @@
    "license": "",
    "stars": 60113,
    "forks": 12005,
-   "open_issues": 5148,
+   "open_issues": 5159,
    "topics": [
     "ai-gateway",
     "anthropic",
@@ -1218,7 +1218,7 @@
     "vertex-ai"
    ],
    "created_at": "2023-07-27T00:09:52Z",
-   "pushed_at": "2026-10-04T09:01:31Z",
+   "pushed_at": "2026-10-04T09:04:58Z",
    "starred_at": "2026-03-31T12:09:09Z",
    "archived": false,
    "fork": false,
@@ -1426,7 +1426,7 @@
    "language": "TypeScript",
    "license": "Apache-2.0",
    "stars": 52935,
-   "forks": 5563,
+   "forks": 5565,
    "open_issues": 105,
    "topics": [
     "browser",
@@ -1973,7 +1973,7 @@
    "homepage": "https://agent-memory.dev",
    "language": "TypeScript",
    "license": "Apache-2.0",
-   "stars": 29125,
+   "stars": 29126,
    "forks": 2547,
    "open_issues": 597,
    "topics": [
@@ -2064,7 +2064,7 @@
    "homepage": "https://obscura.sh",
    "language": "Rust",
    "license": "Apache-2.0",
-   "stars": 28320,
+   "stars": 28321,
    "forks": 2104,
    "open_issues": 211,
    "topics": [
@@ -2195,7 +2195,7 @@
    "homepage": "https://obsidian.md",
    "language": "",
    "license": "",
-   "stars": 21984,
+   "stars": 21985,
    "forks": 7832,
    "open_issues": 4,
    "topics": [
@@ -2236,7 +2236,7 @@
    "homepage": "https://claude-seo.md",
    "language": "Python",
    "license": "MIT",
-   "stars": 18255,
+   "stars": 18256,
    "forks": 2675,
    "open_issues": 24,
    "topics": [
@@ -2476,7 +2476,7 @@
    "homepage": "https://opengsd.net",
    "language": "JavaScript",
    "license": "MIT",
-   "stars": 10148,
+   "stars": 10149,
    "forks": 727,
    "open_issues": 191,
    "topics": [
@@ -2767,7 +2767,7 @@
    "homepage": "https://www.n8n-skills.com",
    "language": "Shell",
    "license": "MIT",
-   "stars": 6370,
+   "stars": 6369,
    "forks": 1052,
    "open_issues": 15,
    "topics": [
@@ -3342,7 +3342,7 @@
    "homepage": "https://mimik.westpoint.io",
    "language": "TypeScript",
    "license": "MIT",
-   "stars": 1449,
+   "stars": 1450,
    "forks": 195,
    "open_issues": 7,
    "topics": [
