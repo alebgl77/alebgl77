@@ -155,8 +155,8 @@
    "homepage": "",
    "language": "Shell",
    "license": "MIT",
-   "stars": 295027,
-   "forks": 26366,
+   "stars": 295028,
+   "forks": 26367,
    "open_issues": 306,
    "topics": [
     "ai",
@@ -226,7 +226,7 @@
    "homepage": "https://ecc.tools",
    "language": "JavaScript",
    "license": "MIT",
-   "stars": 272495,
+   "stars": 272496,
    "forks": 40686,
    "open_issues": 340,
    "topics": [
@@ -272,7 +272,7 @@
    "homepage": "https://deepseek.com/harness",
    "language": "TypeScript",
    "license": "MIT",
-   "stars": 243103,
+   "stars": 243104,
    "forks": 29148,
    "open_issues": 0,
    "topics": [
@@ -352,7 +352,7 @@
    "homepage": "",
    "language": "TypeScript",
    "license": "MIT",
-   "stars": 134970,
+   "stars": 134971,
    "forks": 20078,
    "open_issues": 536,
    "topics": [],
@@ -381,7 +381,7 @@
    "language": "C++",
    "license": "MIT",
    "stars": 130264,
-   "forks": 24058,
+   "forks": 24059,
    "open_issues": 2535,
    "topics": [
     "ggml"
@@ -412,7 +412,7 @@
    "homepage": "https://www.graphify.com",
    "language": "Python",
    "license": "Apache-2.0",
-   "stars": 123631,
+   "stars": 123632,
    "forks": 11917,
    "open_issues": 1514,
    "topics": [
@@ -512,7 +512,7 @@
    "homepage": "https://open-design.ai",
    "language": "TypeScript",
    "license": "Apache-2.0",
-   "stars": 99355,
+   "stars": 99354,
    "forks": 11492,
    "open_issues": 1155,
    "topics": [
@@ -622,9 +622,9 @@
    "homepage": "https://claude-mem.ai",
    "language": "TypeScript",
    "license": "Apache-2.0",
-   "stars": 95768,
+   "stars": 95769,
    "forks": 8468,
-   "open_issues": 87,
+   "open_issues": 88,
    "topics": [
     "ai",
     "ai-agents",
@@ -731,7 +731,7 @@
    "homepage": "",
    "language": "Python",
    "license": "MIT",
-   "stars": 90157,
+   "stars": 90159,
    "forks": 7930,
    "open_issues": 207,
    "topics": [
@@ -815,7 +815,7 @@
    "homepage": "https://scrapling.readthedocs.io/en/latest/",
    "language": "Python",
    "license": "BSD-3-Clause",
-   "stars": 85538,
+   "stars": 85540,
    "forks": 8766,
    "open_issues": 14,
    "topics": [
@@ -873,7 +873,7 @@
    "homepage": "https://deerflow.tech",
    "language": "Python",
    "license": "MIT",
-   "stars": 83368,
+   "stars": 83369,
    "forks": 11570,
    "open_issues": 886,
    "topics": [
@@ -1218,7 +1218,7 @@
     "vertex-ai"
    ],
    "created_at": "2023-07-27T00:09:52Z",
-   "pushed_at": "2026-10-04T08:55:44Z",
+   "pushed_at": "2026-10-04T09:01:31Z",
    "starred_at": "2026-03-31T12:09:09Z",
    "archived": false,
    "fork": false,
@@ -1426,7 +1426,7 @@
    "language": "TypeScript",
    "license": "Apache-2.0",
    "stars": 52935,
-   "forks": 5562,
+   "forks": 5563,
    "open_issues": 105,
    "topics": [
     "browser",
@@ -1552,7 +1552,7 @@
    "homepage": "https://nanobot.wiki",
    "language": "Python",
    "license": "MIT",
-   "stars": 48775,
+   "stars": 48776,
    "forks": 8604,
    "open_issues": 824,
    "topics": [
@@ -2436,7 +2436,7 @@
    "homepage": "",
    "language": "Python",
    "license": "Apache-2.0",
-   "stars": 10941,
+   "stars": 10942,
    "forks": 1107,
    "open_issues": 121,
    "topics": [
@@ -3257,7 +3257,7 @@
    "homepage": "",
    "language": "TypeScript",
    "license": "MIT",
-   "stars": 2206,
+   "stars": 2207,
    "forks": 153,
    "open_issues": 24,
    "topics": [
