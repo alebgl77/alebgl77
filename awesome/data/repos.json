@@ -9,21 +9,28 @@
    "title": "MCP & Tool Use",
    "short": "MCP",
    "blurb": "Model Context Protocol servers, clients, gateways and function-calling infrastructure.",
-   "count": 5
+   "count": 4
+  },
+  {
+   "id": "memory",
+   "title": "Agent Memory & Persistent Context",
+   "short": "Memory",
+   "blurb": "Long-term memory layers, persistent context across sessions and knowledge stores for agents.",
+   "count": 6
   },
   {
    "id": "rag",
    "title": "RAG, Retrieval & Knowledge",
    "short": "RAG",
    "blurb": "Retrieval-augmented generation, vector search, document parsing, embeddings and knowledge graphs.",
-   "count": 1
+   "count": 0
   },
   {
    "id": "evals",
    "title": "Evaluation, Benchmarks & Testing",
    "short": "Evals",
    "blurb": "LLM and agent evaluation, LLM-as-a-judge, benchmarks, regression testing and red teaming harnesses.",
-   "count": 1
+   "count": 0
   },
   {
    "id": "observability",
@@ -37,7 +44,7 @@
    "title": "AI Security, Safety & Governance",
    "short": "AI Security",
    "blurb": "Guardrails, prompt-injection defense, agent security scanning, privacy and AI governance or compliance.",
-   "count": 5
+   "count": 6
   },
   {
    "id": "search",
@@ -58,14 +65,14 @@
    "title": "AI Coding Agents & Skills",
    "short": "Coding Agents",
    "blurb": "Coding agents, IDE copilots, agent skills, plugins and harness tooling for Claude Code, Codex, Cursor and peers.",
-   "count": 29
+   "count": 27
   },
   {
    "id": "agents",
    "title": "Agent Frameworks & Orchestration",
    "short": "Agents",
    "blurb": "Frameworks and runtimes for single and multi-agent systems, planning, memory and orchestration.",
-   "count": 13
+   "count": 11
   },
   {
    "id": "inference",
@@ -86,7 +93,7 @@
    "title": "Vision, Voice & Generative Media",
    "short": "Multimodal",
    "blurb": "Speech, text-to-speech, OCR, computer vision, image and video generation and multimodal models.",
-   "count": 2
+   "count": 3
   },
   {
    "id": "data",
@@ -100,14 +107,14 @@
    "title": "Automation, Browser Agents & Productivity",
    "short": "Automation",
    "blurb": "Workflow automation, browser and computer-use agents, extensions and everyday productivity tools.",
-   "count": 5
+   "count": 7
   },
   {
    "id": "frontend",
    "title": "Frontend, Design & Generative UI",
    "short": "Frontend",
    "blurb": "Design systems, UI components, design taste for AI agents and generative interfaces.",
-   "count": 4
+   "count": 3
   },
   {
    "id": "infra",
@@ -121,7 +128,7 @@
    "title": "AI Apps & Chat Interfaces",
    "short": "AI Apps",
    "blurb": "End-user AI applications, chat UIs, assistants and business tools built on LLMs.",
-   "count": 3
+   "count": 4
   },
   {
    "id": "learning",
@@ -135,7 +142,7 @@
    "title": "To Triage",
    "short": "Triage",
    "blurb": "Not matched by the taxonomy yet. Add topics upstream or an override in config.toml.",
-   "count": 3
+   "count": 0
   }
  ],
  "repos": [
@@ -192,7 +199,7 @@
    "language": "Shell",
    "license": "MIT",
    "stars": 275598,
-   "forks": 23117,
+   "forks": 23118,
    "open_issues": 549,
    "topics": [],
    "created_at": "2026-02-03T11:15:53Z",
@@ -219,7 +226,7 @@
    "homepage": "https://ecc.tools",
    "language": "JavaScript",
    "license": "MIT",
-   "stars": 272493,
+   "stars": 272495,
    "forks": 40686,
    "open_issues": 340,
    "topics": [
@@ -265,7 +272,7 @@
    "homepage": "https://deepseek.com/harness",
    "language": "TypeScript",
    "license": "MIT",
-   "stars": 243102,
+   "stars": 243103,
    "forks": 29148,
    "open_issues": 0,
    "topics": [
@@ -405,7 +412,7 @@
    "homepage": "https://www.graphify.com",
    "language": "Python",
    "license": "Apache-2.0",
-   "stars": 123630,
+   "stars": 123631,
    "forks": 11917,
    "open_issues": 1514,
    "topics": [
@@ -505,7 +512,7 @@
    "homepage": "https://open-design.ai",
    "language": "TypeScript",
    "license": "Apache-2.0",
-   "stars": 99353,
+   "stars": 99355,
    "forks": 11492,
    "open_issues": 1155,
    "topics": [
@@ -593,13 +600,13 @@
    "mine": false,
    "category": "multimodal",
    "tags": [],
-   "score": 1,
+   "score": 5,
    "key_topics": [
+    "deepfake",
     "ai",
     "gan",
     "webcam",
-    "ai-face",
-    "deepfake"
+    "ai-face"
    ],
    "classified_by": "rules",
    "health": "active",
@@ -646,19 +653,20 @@
    "archived": false,
    "fork": false,
    "mine": false,
-   "category": "coding",
+   "category": "memory",
    "tags": [
+    "coding",
     "rag"
    ],
-   "score": 13,
+   "score": 7,
    "key_topics": [
+    "mem0",
+    "long-term-memory",
     "claude-code",
     "claude-skills",
-    "claude-code-plugin",
-    "rag",
-    "chromadb"
+    "claude-code-plugin"
    ],
-   "classified_by": "rules",
+   "classified_by": "override",
    "health": "active",
    "stars_delta": null,
    "delta_days": null
@@ -672,7 +680,7 @@
    "homepage": "https://tasteskill.dev",
    "language": "JavaScript",
    "license": "MIT",
-   "stars": 92418,
+   "stars": 92419,
    "forks": 6272,
    "open_issues": 73,
    "topics": [
@@ -723,7 +731,7 @@
    "homepage": "",
    "language": "Python",
    "license": "MIT",
-   "stars": 90155,
+   "stars": 90157,
    "forks": 7930,
    "open_issues": 207,
    "topics": [
@@ -789,11 +797,11 @@
    "archived": false,
    "fork": false,
    "mine": false,
-   "category": "triage",
+   "category": "apps",
    "tags": [],
-   "score": 0,
+   "score": 1,
    "key_topics": [],
-   "classified_by": "none",
+   "classified_by": "rules",
    "health": "active",
    "stars_delta": null,
    "delta_days": null
@@ -807,7 +815,7 @@
    "homepage": "https://scrapling.readthedocs.io/en/latest/",
    "language": "Python",
    "license": "BSD-3-Clause",
-   "stars": 85537,
+   "stars": 85538,
    "forks": 8766,
    "open_issues": 14,
    "topics": [
@@ -1418,7 +1426,7 @@
    "language": "TypeScript",
    "license": "Apache-2.0",
    "stars": 52935,
-   "forks": 5561,
+   "forks": 5562,
    "open_issues": 105,
    "topics": [
     "browser",
@@ -1462,7 +1470,7 @@
    "homepage": "https://multica.ai",
    "language": "Go",
    "license": "",
-   "stars": 51907,
+   "stars": 51908,
    "forks": 6743,
    "open_issues": 1771,
    "topics": [],
@@ -1519,14 +1527,16 @@
    "fork": false,
    "mine": false,
    "category": "coding",
-   "tags": [],
+   "tags": [
+    "automation"
+   ],
    "score": 11,
    "key_topics": [
     "codex",
     "skills",
+    "obsidian",
     "cli",
-    "claude",
-    "md"
+    "claude"
    ],
    "classified_by": "rules",
    "health": "active",
@@ -1637,13 +1647,13 @@
     "evals",
     "infra"
    ],
-   "score": 16,
+   "score": 20,
    "key_topics": [
+    "appsec",
     "security",
     "pentesting",
     "ai-security",
-    "cybersecurity",
-    "security-tools"
+    "cybersecurity"
    ],
    "classified_by": "rules",
    "health": "active",
@@ -1829,7 +1839,7 @@
    "homepage": "",
    "language": "PowerShell",
    "license": "MIT",
-   "stars": 39560,
+   "stars": 39561,
    "forks": 5516,
    "open_issues": 26,
    "topics": [],
@@ -1892,13 +1902,13 @@
    "tags": [
     "inference"
    ],
-   "score": 6,
+   "score": 14,
    "key_topics": [
     "whisper",
+    "meeting-notes",
+    "transcription",
     "speech-to-text",
-    "ollama",
-    "self-hosted",
-    "ai"
+    "ollama"
    ],
    "classified_by": "rules",
    "health": "active",
@@ -1937,11 +1947,11 @@
    "archived": false,
    "fork": false,
    "mine": false,
-   "category": "agents",
+   "category": "memory",
    "tags": [
     "frontend"
    ],
-   "score": 6,
+   "score": 7,
    "key_topics": [
     "memory",
     "agent-memory",
@@ -1987,19 +1997,19 @@
    "archived": false,
    "fork": false,
    "mine": false,
-   "category": "coding",
+   "category": "memory",
    "tags": [
-    "agents"
+    "coding"
    ],
-   "score": 8,
+   "score": 4,
    "key_topics": [
+    "memory",
     "codex",
     "copilot",
-    "memory",
     "claude",
     "cursor"
    ],
-   "classified_by": "rules",
+   "classified_by": "override",
    "health": "active",
    "stars_delta": null,
    "delta_days": null
@@ -2118,17 +2128,18 @@
    "archived": false,
    "fork": false,
    "mine": false,
-   "category": "agents",
+   "category": "memory",
    "tags": [
-    "rag"
+    "rag",
+    "agents"
    ],
    "score": 9,
    "key_topics": [
     "memory",
+    "long-term-memory",
     "embedding",
     "vector-search",
-    "agent",
-    "ai-agent"
+    "agent"
    ],
    "classified_by": "rules",
    "health": "active",
@@ -2201,17 +2212,17 @@
    "archived": false,
    "fork": false,
    "mine": false,
-   "category": "triage",
+   "category": "automation",
    "tags": [],
-   "score": 0,
+   "score": 9,
    "key_topics": [
+    "obsidian",
+    "obsidian-md",
     "md",
     "bases",
-    "markdown",
-    "obsidian",
-    "jsoncanvas"
+    "markdown"
    ],
-   "classified_by": "none",
+   "classified_by": "rules",
    "health": "active",
    "stars_delta": null,
    "delta_days": null
@@ -2226,7 +2237,7 @@
    "language": "Python",
    "license": "MIT",
    "stars": 18255,
-   "forks": 2674,
+   "forks": 2675,
    "open_issues": 24,
    "topics": [
     "ai",
@@ -2321,15 +2332,15 @@
    "archived": false,
    "fork": false,
    "mine": false,
-   "category": "frontend",
+   "category": "security",
    "tags": [],
-   "score": 1,
+   "score": 7,
    "key_topics": [
-    "typescript",
+    "sast",
+    "static-analysis",
     "c",
     "go",
-    "r2c",
-    "java"
+    "r2c"
    ],
    "classified_by": "rules",
    "health": "active",
@@ -2441,13 +2452,13 @@
    "archived": false,
    "fork": false,
    "mine": false,
-   "category": "evals",
+   "category": "automation",
    "tags": [],
-   "score": 2,
+   "score": 3,
    "key_topics": [
-    "testing",
     "google",
     "android",
+    "testing",
     "ai-agents",
     "test-automation"
    ],
@@ -2818,8 +2829,8 @@
    "category": "learning",
    "tags": [
     "coding",
-    "agents",
-    "mcp"
+    "memory",
+    "agents"
    ],
    "score": 8,
    "key_topics": [
@@ -2893,17 +2904,17 @@
    "mine": false,
    "category": "context",
    "tags": [
-    "agents",
     "learning",
-    "mcp"
+    "mcp",
+    "memory"
    ],
    "score": 6,
    "key_topics": [
     "context-engineering",
     "harness-engineering",
-    "agent-memory",
     "awesome-list",
-    "mcp"
+    "mcp",
+    "agent-memory"
    ],
    "classified_by": "rules",
    "health": "active",
@@ -3048,18 +3059,18 @@
    "archived": false,
    "fork": false,
    "mine": false,
-   "category": "mcp",
+   "category": "multimodal",
    "tags": [
-    "coding",
-    "multimodal"
-   ],
-   "score": 10,
-   "key_topics": [
     "mcp",
-    "mcp-server",
-    "model-context-protocol",
-    "codex",
-    "claude-code"
+    "coding"
+   ],
+   "score": 11,
+   "key_topics": [
+    "meeting-notes",
+    "transcription",
+    "speech-to-text",
+    "mcp",
+    "mcp-server"
    ],
    "classified_by": "rules",
    "health": "active",
@@ -3161,20 +3172,20 @@
    "archived": false,
    "fork": false,
    "mine": false,
-   "category": "rag",
+   "category": "memory",
    "tags": [
-    "coding",
-    "agents"
-   ],
-   "score": 15,
-   "key_topics": [
     "rag",
-    "milvus",
-    "embeddings",
-    "hybrid-search",
-    "semantic-search"
+    "coding"
    ],
-   "classified_by": "rules",
+   "score": 10,
+   "key_topics": [
+    "memory",
+    "agent-memory",
+    "long-term-memory",
+    "rag",
+    "milvus"
+   ],
+   "classified_by": "override",
    "health": "active",
    "stars_delta": null,
    "delta_days": null
@@ -3627,11 +3638,11 @@
    "archived": false,
    "fork": false,
    "mine": false,
-   "category": "triage",
+   "category": "memory",
    "tags": [],
-   "score": 0,
+   "score": 4,
    "key_topics": [],
-   "classified_by": "none",
+   "classified_by": "rules",
    "health": "active",
    "stars_delta": null,
    "delta_days": null
