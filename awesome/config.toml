@@ -23,7 +23,10 @@ exclude_starred = []
 
 # Force a category when the automatic classifier is wrong: "owner/name" = "category-id".
 [overrides]
-# "Shubhamsaboo/awesome-llm-apps" = "learning"
+# "owner/name" = "category-id"
+"thedotmack/claude-mem" = "memory"
+"rohitg00/agentmemory" = "memory"
+"zilliztech/memsearch" = "memory"
 
 # ---------------------------------------------------------------------------
 # Taxonomy
@@ -54,6 +57,14 @@ blurb = "Model Context Protocol servers, clients, gateways and function-calling 
 topics = ["mcp", "model-context-protocol", "mcp-server", "mcp-servers", "mcp-client", "mcp-tools", "mcp-gateway", "function-calling", "tool-calling", "tool-use", "a2a", "agent-protocol"]
 weak_topics = ["tools"]
 keywords = ["mcp", "model context protocol", "function calling", "tool calling", "tool use"]
+
+[[category]]
+id = "memory"
+title = "Agent Memory & Persistent Context"
+short = "Memory"
+blurb = "Long-term memory layers, persistent context across sessions and knowledge stores for agents."
+topics = ["agent-memory", "memory", "long-term-memory", "persistent-memory", "memory-layer", "memory-management", "mem0", "context-management", "knowledge-base", "second-brain"]
+keywords = ["memory", "memories", "persistent context", "remember", "memory bank", "memorybank"]
 
 [[category]]
 id = "rag"
@@ -87,8 +98,8 @@ id = "security"
 title = "AI Security, Safety & Governance"
 short = "AI Security"
 blurb = "Guardrails, prompt-injection defense, agent security scanning, privacy and AI governance or compliance."
-topics = ["ai-security", "llm-security", "security", "security-tools", "prompt-injection", "guardrails", "jailbreak", "ai-governance", "governance", "compliance", "eu-ai-act", "privacy", "pii", "cybersecurity", "shadow-ai", "ai-safety", "alignment", "pentesting", "vulnerability-scanners", "adversarial-machine-learning"]
-keywords = ["security", "secure", "guardrail", "guardrails", "prompt injection", "governance", "compliance", "privacy", "pii", "jailbreak", "shadow ai", "vulnerabilities", "safety"]
+topics = ["ai-security", "llm-security", "security", "security-tools", "prompt-injection", "guardrails", "jailbreak", "ai-governance", "governance", "compliance", "eu-ai-act", "privacy", "pii", "cybersecurity", "shadow-ai", "ai-safety", "alignment", "pentesting", "vulnerability-scanners", "adversarial-machine-learning", "static-analysis", "sast", "appsec"]
+keywords = ["security", "secure", "guardrail", "guardrails", "prompt injection", "governance", "compliance", "privacy", "pii", "jailbreak", "shadow ai", "vulnerabilities", "vulnerability", "safety", "static analysis", "pentester", "pentesting"]
 
 [[category]]
 id = "search"
@@ -120,7 +131,7 @@ id = "agents"
 title = "Agent Frameworks & Orchestration"
 short = "Agents"
 blurb = "Frameworks and runtimes for single and multi-agent systems, planning, memory and orchestration."
-topics = ["multi-agent", "multi-agents", "multiagent", "multi-agent-systems", "agentic-ai", "agentic", "agent-framework", "aiagentframework", "langgraph", "crewai", "autogen", "llm-agent", "autonomous-agents", "deepagents", "agent-memory", "memory", "langchain", "swarm", "orchestration"]
+topics = ["multi-agent", "multi-agents", "multiagent", "multi-agent-systems", "agentic-ai", "agentic", "agent-framework", "aiagentframework", "langgraph", "crewai", "autogen", "llm-agent", "autonomous-agents", "deepagents", "langchain", "swarm", "orchestration"]
 weak_topics = ["agents", "ai-agents", "agent", "ai-agent", "llm-framework", "framework"]
 keywords = ["agent", "agents", "agentic", "multi-agent", "orchestration", "orchestrating", "autonomous"]
 
@@ -146,8 +157,8 @@ id = "multimodal"
 title = "Vision, Voice & Generative Media"
 short = "Multimodal"
 blurb = "Speech, text-to-speech, OCR, computer vision, image and video generation and multimodal models."
-topics = ["computer-vision", "vision", "ocr", "speech", "speech-recognition", "speech-to-text", "tts", "text-to-speech", "asr", "whisper", "voice", "voice-ai", "audio", "stable-diffusion", "diffusion", "image-generation", "text-to-image", "video-generation", "text-to-video", "multimodal", "vlm", "comfyui"]
-keywords = ["speech", "voice", "tts", "text-to-speech", "ocr", "image generation", "diffusion", "video", "vision", "multimodal", "audio"]
+topics = ["computer-vision", "vision", "ocr", "speech", "speech-recognition", "speech-to-text", "tts", "text-to-speech", "asr", "whisper", "voice", "voice-ai", "audio", "stable-diffusion", "diffusion", "image-generation", "text-to-image", "video-generation", "text-to-video", "multimodal", "vlm", "comfyui", "transcription", "meeting-notes", "deepfake", "face-swap"]
+keywords = ["speech", "voice", "tts", "text-to-speech", "ocr", "image generation", "diffusion", "video", "vision", "multimodal", "audio", "transcription", "meeting", "meetings", "face swap"]
 
 [[category]]
 id = "data"
@@ -163,8 +174,8 @@ id = "automation"
 title = "Automation, Browser Agents & Productivity"
 short = "Automation"
 blurb = "Workflow automation, browser and computer-use agents, extensions and everyday productivity tools."
-topics = ["automation", "workflow", "workflow-automation", "n8n", "zapier", "browser-automation", "browser-use", "computer-use", "playwright", "puppeteer", "rpa", "low-code", "low-code-platform", "no-code", "nocode", "lowcode", "chrome-extension", "productivity", "ipaas", "integrations"]
-keywords = ["automation", "automate", "workflow", "workflows", "browser", "no-code", "low-code", "chrome", "extension", "screenshot", "capture", "productivity"]
+topics = ["automation", "workflow", "workflow-automation", "n8n", "zapier", "browser-automation", "browser-use", "computer-use", "playwright", "puppeteer", "rpa", "low-code", "low-code-platform", "no-code", "nocode", "lowcode", "chrome-extension", "productivity", "ipaas", "integrations", "obsidian", "obsidian-md", "note-taking", "notes"]
+keywords = ["automation", "automate", "workflow", "workflows", "browser", "no-code", "low-code", "chrome", "extension", "screenshot", "capture", "productivity", "obsidian", "android"]
 
 [[category]]
 id = "frontend"
@@ -191,7 +202,7 @@ short = "AI Apps"
 blurb = "End-user AI applications, chat UIs, assistants and business tools built on LLMs."
 topics = ["chatbot", "chat-ui", "llm-ui", "librechat", "open-webui", "assistant", "ai-assistant", "chatgpt-app", "chat", "webui"]
 weak_topics = ["chatgpt", "openai", "anthropic", "gemini"]
-keywords = ["chat", "chatbot", "assistant", "app", "apps", "quote", "crm"]
+keywords = ["chat", "chatbot", "assistant", "app", "apps", "workspace", "chatgpt clone"]
 
 [[category]]
 id = "learning"
