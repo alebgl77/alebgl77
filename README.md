@@ -25,7 +25,7 @@ Independent Data & AI consultant and founder based in Paris, with 20 years acros
 
 ## Awesome AI Architect
 
-**[awesome-ai-architect](https://github.com/alebgl77/awesome-ai-architect)**: a self-updating map of the GenAI stack, classified automatically from my GitHub stars and open-source projects into 19 AI-engineering categories (agents, MCP, memory, RAG, evals, LLMOps, security and more). Refreshed daily by GitHub Actions: [Markdown list](https://github.com/alebgl77/awesome-ai-architect) · [interactive explorer](https://alebgl77.github.io/awesome-ai-architect/).
+**[awesome-ai-architect](https://github.com/alebgl77/awesome-ai-architect)**: a self-updating map of the GenAI stack, classified automatically from my GitHub stars and open-source projects into an AI-engineering taxonomy (agents, MCP, memory, RAG, evals, LLMOps, security and more). Refreshed daily by GitHub Actions: [Markdown list](https://github.com/alebgl77/awesome-ai-architect) · [interactive explorer](https://alebgl77.github.io/awesome-ai-architect/).
 
 ## Focus
 
