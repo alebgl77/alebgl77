@@ -4,7 +4,7 @@
 
 I design agentic systems and the layer most teams skip: telemetry, cost attribution, evaluation coverage, audit evidence and least-privilege tool access. Independent Data & AI consultant and external CAIO based in Paris, with 20 years across IT, data and AI.
 
-[View consulting work](https://beguel.com/) · [Connect on LinkedIn](https://www.linkedin.com/in/beguel/) · [En français](#missions--conseil)
+[View consulting work](https://beguel.com/) · [Connect on LinkedIn](https://www.linkedin.com/in/beguel/)
 
 > **Proof, not slides.** A cheaper model tier at **0.66×** frontier cost in a 36-run pilot · **63/63** generated PromQL queries executed on a real Prometheus · E2E CI on **Grafana 9.5 → 13.2** · an MCP server on the **Official MCP Registry** · merged upstream work in **LibreChat**, **AgentShield** and **Grafana plugin-tools**.
 
@@ -40,16 +40,16 @@ Also: **[generative-engine-monitor](https://github.com/alebgl77/generative-engin
 - **Grafana plugin-tools**: two merged contributions, [signed-commit contributor guidance](https://github.com/grafana/plugin-tools/pull/2841) and a [Node 24 `.nvmrc` scaffold update](https://github.com/grafana/plugin-tools/pull/2830).
 - **In review**: [OpenTelemetry GenAI semantic conventions](https://github.com/open-telemetry/semantic-conventions-genai/pull/516), recording token usage on `fetch_response` spans, and [LangChain OpenWiki](https://github.com/langchain-ai/openwiki/pull/818), Mistral as a model provider.
 
-## Missions & conseil
+## Consulting & advisory
 
-J'accompagne des ETI, des startups et des e-commerçants du cadrage à l'industrialisation de la GenAI. Les dépôts ci-dessus montrent la méthode ; en mission, je l'applique à votre SI, à vos données et à vos contraintes.
+I take GenAI from scoping to production for mid-sized companies, startups and e-commerce businesses. The repositories above show the method; on engagements, I apply it to your systems, your data and your constraints.
 
-- **Cadrage et architecture** : cas d'usage, build vs buy, RAG, systèmes multi-agents (LangGraph), choix des modèles et de l'hébergement.
-- **Mise en production mesurable** : évaluation (RAGAS), observabilité, coûts par équipe et par modèle, SLO de qualité et de latence.
-- **Gouvernance et conformité** : inventaire du Shadow AI, traçabilité et preuves d'audit au regard de l'AI Act, de l'ISO/IEC 42001 et du NIST AI RMF, contrôle des accès des agents aux outils.
-- **CAIO externalisé et formation** : feuille de route IA, conduite du changement, montée en compétence des équipes sur Claude Code et les systèmes agentiques.
+- **Scoping and architecture**: use cases, build vs buy, RAG, multi-agent systems (LangGraph), model and hosting choices.
+- **Measurable production**: evaluation (RAGAS), observability, cost per team and per model, quality and latency SLOs.
+- **Governance and compliance**: Shadow AI inventory, traceability and audit evidence against the EU AI Act, ISO/IEC 42001 and NIST AI RMF, controlled agent access to tools.
+- **External CAIO and training**: AI roadmap, change management, upskilling teams on Claude Code and agentic systems.
 
-Échangeons sur votre projet : [beguel.com](https://beguel.com/) · [LinkedIn](https://www.linkedin.com/in/beguel/)
+Let's talk about your project: [beguel.com](https://beguel.com/) · [LinkedIn](https://www.linkedin.com/in/beguel/)
 
 ## Working principles
 
