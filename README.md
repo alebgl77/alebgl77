@@ -1,10 +1,10 @@
-# Agentic AI Architect · LLMOps & AI Governance
+# Alexandre Beguel · Agentic AI Architect & external CAIO
 
-**Production GenAI that can be measured, audited and controlled.**
+**English** · [Français](README.fr.md) · [Español](README.es.md)
 
-I design agentic systems and the layer most teams skip: telemetry, cost attribution, evaluation coverage, audit evidence and least-privilege tool access. Independent Data & AI consultant and external CAIO based in Paris, with 20 years across IT, data and AI.
+**Alexandre Beguel is an Agentic AI Architect and external Chief AI Officer (CAIO) based in Paris.** He builds production GenAI that can be measured, audited and controlled. His focus is LLMOps, LLM FinOps, evaluation and evidence-first AI governance (EU AI Act, ISO/IEC 42001, NIST AI RMF). He is the founder of Digitalizor and has 20 years of experience across IT, data and AI.
 
-[View consulting work](https://beguel.com/) · [Connect on LinkedIn](https://www.linkedin.com/in/beguel/)
+[beguel.com](https://beguel.com/) · [LinkedIn](https://www.linkedin.com/in/beguel/) · [Malt](https://www.malt.fr/profile/alexandrebeguel) · [alebgl77.github.io](https://alebgl77.github.io/)
 
 > **Proof, not slides.** A cheaper model tier at **0.66×** frontier cost in a 36-run pilot · **63/63** generated PromQL queries executed on a real Prometheus · E2E CI on **Grafana 9.5 → 13.2** · an MCP server on the **Official MCP Registry** · merged upstream work in **LibreChat**, **AgentShield** and **Grafana plugin-tools**.
 
@@ -12,7 +12,7 @@ I design agentic systems and the layer most teams skip: telemetry, cost attribut
 
 ### 1. LLM observability and FinOps on an open stack
 
-OpenTelemetry GenAI → Prometheus → Grafana, self-hosted, on the telemetry you already emit.
+OpenTelemetry GenAI → Prometheus → Grafana, self-hosted, on the telemetry a platform already emits.
 
 - **[grafana-llmops-forge](https://github.com/alebgl77/grafana-llmops-forge)**: discovers what a Grafana deployment actually collects (OTel GenAI, LiteLLM, vLLM/TGI, DCGM), then generates, deploys and visually verifies seven dashboards for FinOps, agents, quality and governance, with multi-window burn-rate SLO alerts.<br><sub>v2.0 · zero dependencies · E2E CI on Grafana 9.5 → 13.2 · 63/63 generated queries executed on a real Prometheus · listed in awesome-observability</sub>
 - **[openspanguard](https://github.com/alebgl77/openspanguard)**: an OTLP enrichment gateway that evaluates completed generation spans, keeps original trace IDs and timestamps, and exposes evaluation coverage next to quality scores, so a good average cannot hide unevaluated traffic.<br><sub>developer preview · offline demo and Tempo/Alertmanager stack</sub>
@@ -42,14 +42,29 @@ Also: **[generative-engine-monitor](https://github.com/alebgl77/generative-engin
 
 ## Consulting & advisory
 
-I take GenAI from scoping to production for mid-sized companies, startups and e-commerce businesses. The repositories above show the method; on engagements, I apply it to your systems, your data and your constraints.
+Engagements take GenAI from scoping to production for mid-sized companies, startups and e-commerce businesses. The repositories above show the method; each engagement applies it to the client's systems, data and constraints.
 
 - **Scoping and architecture**: use cases, build vs buy, RAG, multi-agent systems (LangGraph), model and hosting choices.
 - **Measurable production**: evaluation (RAGAS), observability, cost per team and per model, quality and latency SLOs.
 - **Governance and compliance**: Shadow AI inventory, traceability and audit evidence against the EU AI Act, ISO/IEC 42001 and NIST AI RMF, controlled agent access to tools.
 - **External CAIO and training**: AI roadmap, change management, upskilling teams on Claude Code and agentic systems.
 
-Let's talk about your project: [beguel.com](https://beguel.com/) · [LinkedIn](https://www.linkedin.com/in/beguel/)
+## FAQ
+
+**What does Alexandre Beguel specialize in?**
+Production GenAI and agentic systems. He covers the full path from scoping to operation: architecture, evaluation, observability, cost control and AI governance.
+
+**How can a team measure the cost of its LLMs?**
+Start from the telemetry already emitted, then attribute cost per team, model and provider. grafana-llmops-forge builds these FinOps dashboards in Grafana without a vendor SDK.
+
+**How can a company detect Shadow AI?**
+Correlate network, endpoint and identity signals, and keep presence separate from usage. open-shadow-ai does this self-hosted, with an evidence level per finding.
+
+**How do you prepare GenAI systems for the EU AI Act?**
+Build the evidence first: AI inventory, logging continuity, transparency notices and incident tracking. Article 50 transparency obligations apply since 2 August 2026. Under the AI Omnibus (Regulation (EU) 2026/1744), Annex III high-risk obligations apply from 2 December 2027.
+
+**Which languages does he work in?**
+French (native), English and Spanish. He is based in Paris.
 
 ## Working principles
 
@@ -255,6 +270,6 @@ A focused stack for agentic orchestration, evaluation, serving and cloud-native 
 
 ## Contact
 
-[beguel.com](https://beguel.com) · [LinkedIn](https://www.linkedin.com/in/beguel/)
+[beguel.com](https://beguel.com/) · [LinkedIn](https://www.linkedin.com/in/beguel/) · [Malt](https://www.malt.fr/profile/alexandrebeguel) · [alebgl77.github.io](https://alebgl77.github.io/)
 
-French is my native language; I work professionally in English and Spanish.
+<sub>Alexandre Beguel · Agentic AI Architect & external CAIO · Paris, France · Updated October 2026</sub>
