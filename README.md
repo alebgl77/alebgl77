@@ -1,38 +1,62 @@
-# Agentic AI Architect | Production GenAI & LLMOps
+# Agentic AI Architect · LLMOps & AI Governance
 
-I design and operate production GenAI systems, from agentic workflows and RAG to evaluation, observability, security and cloud infrastructure.
+**Production GenAI that can be measured, audited and controlled.**
 
-Independent Data & AI consultant and founder based in Paris, with 20 years across IT, data and AI.
+I design agentic systems and the layer most teams skip: telemetry, cost attribution, evaluation coverage, audit evidence and least-privilege tool access. Independent Data & AI consultant and external CAIO based in Paris, with 20 years across IT, data and AI.
 
-[View consulting work](https://beguel.com/) · [Connect on LinkedIn](https://www.linkedin.com/in/beguel/)
+[View consulting work](https://beguel.com/) · [Connect on LinkedIn](https://www.linkedin.com/in/beguel/) · [Version française : pour les DSI et CTO](#pour-les-dsi-et-cto)
 
-## Selected open-source work
+> **Proof, not slides.** A cheaper model tier at **0.66×** frontier cost in a 36-run pilot · **63/63** generated PromQL queries executed on a real Prometheus · E2E CI on **Grafana 9.5 → 13.2** · an MCP server on the **Official MCP Registry** · merged upstream work in **LibreChat**, **AgentShield** and **Grafana plugin-tools**.
 
-- **[grafana-llmops-forge](https://github.com/alebgl77/grafana-llmops-forge)**: a dependency-free forge that discovers a Grafana deployment and generates, deploys and visually verifies dashboards for LLM observability, FinOps, agent traces, quality and governance.
-- **[generative-engine-monitor](https://github.com/alebgl77/generative-engine-monitor)**: measures brand visibility in parametric and grounded AI answers with bootstrap confidence intervals, explainable scoring and zero-cost replay.
-- **[tierdecay](https://github.com/alebgl77/tierdecay)**: a self-distilling model router for AI coding CLIs that learns task-class routing from execution feedback, using Markdown only and no proxy.
-- **[harnessmeter](https://github.com/alebgl77/harnessmeter)**: an offline profiler for CLAUDE.md instructions, skills, subagents and MCP schemas across Claude Code, Codex and Antigravity, with no API keys or network access.
-- **[ftp-deploy-mcp](https://github.com/alebgl77/ftp-deploy-mcp)**: an MCP deployment server for FTP, FTPS and SFTP with multi-server support, path isolation, read-only mode, dry runs and local credentials.
-- **[claude-inc](https://github.com/alebgl77/claude-inc)**: a Claude Code company framework with peer CEO and CTO executives, eight department charters and 54 skill manuals; selected work runs through the host's agents and permissions, while local project state records tasks, artifacts and reviews.
-- **[open-fullscreenshot](https://github.com/alebgl77/open-fullscreenshot)**: a Chrome Manifest V3 capture extension for whole pages, viewports, elements and regions, with no host permissions, network calls or telemetry.
+## Open-source work
 
-## Selected upstream contributions
+### 1. LLM observability and FinOps on an open stack
 
-- **[AgentShield](https://github.com/affaan-m/agentshield/pull/123)**: a merged scanner fix that discovers and classifies root `.mcp.json` files so MCP configurations reach security rules, with regression coverage; all 16 review threads were resolved.
-- **[Claude SEO](https://github.com/AgriciDaniel/claude-seo/pull/285)**: improved JSON-LD detection and removed template-expression false positives; the maintainer [confirmed](https://github.com/AgriciDaniel/claude-seo/pull/285#issuecomment-5623681972) it was cherry-picked with authorship preserved into v2.3.0.
-- **[LibreChat](https://github.com/danny-avila/LibreChat/pull/15046)**: a merged documentation fix that replaced a machine-specific agents source path and restored `CLAUDE.md`/`AGENTS.md` parity for auth-cache guidance.
-- **Grafana Plugin Tools**: two scoped merged contributions: [signed-commit contributor guidance](https://github.com/grafana/plugin-tools/pull/2841) and a [Node 24 `.nvmrc` scaffold update](https://github.com/grafana/plugin-tools/pull/2830).
+OpenTelemetry GenAI → Prometheus → Grafana, self-hosted, on the telemetry you already emit.
 
-## Awesome AI Architect
+- **[grafana-llmops-forge](https://github.com/alebgl77/grafana-llmops-forge)**: discovers what a Grafana deployment actually collects (OTel GenAI, LiteLLM, vLLM/TGI, DCGM), then generates, deploys and visually verifies seven dashboards for FinOps, agents, quality and governance, with multi-window burn-rate SLO alerts.<br><sub>v2.0 · zero dependencies · E2E CI on Grafana 9.5 → 13.2 · 63/63 generated queries executed on a real Prometheus · listed in awesome-observability</sub>
+- **[openspanguard](https://github.com/alebgl77/openspanguard)**: an OTLP enrichment gateway that evaluates completed generation spans, keeps original trace IDs and timestamps, and exposes evaluation coverage next to quality scores, so a good average cannot hide unevaluated traffic.<br><sub>developer preview · offline demo and Tempo/Alertmanager stack</sub>
+- **[dsh-plugin-otel-genai](https://github.com/alebgl77/dsh-plugin-otel-genai)**: content-free OpenTelemetry GenAI token and latency metrics for DeepSeek Harness, ready for the forge dashboards.
 
-**[awesome-ai-architect](https://github.com/alebgl77/awesome-ai-architect)**: a self-updating map of the GenAI stack, classified automatically from my GitHub stars and open-source projects into an AI-engineering taxonomy (agents, MCP, memory, RAG, evals, LLMOps, security and more). Refreshed daily by GitHub Actions: [Markdown list](https://github.com/alebgl77/awesome-ai-architect) · [interactive explorer](https://alebgl77.github.io/awesome-ai-architect/).
+### 2. Evidence-first AI governance
 
-## Focus
+- **[open-shadow-ai](https://github.com/alebgl77/open-shadow-ai)**: self-hosted Shadow AI discovery that correlates DNS and proxy logs, Zeek/Suricata, an endpoint agent (processes, browser extensions) and Entra ID / Active Directory, with an explicit evidence level per finding: presence is never reported as usage.<br><sub>0.3 preview · 11-job CI with SBOM and signed image evidence · OIDC SSO and SCIM · EN/FR/zh-CN</sub>
+- **Governance blueprint of the forge**: maps EU AI Act articles 12, 26(6), 50 and 73, ISO/IEC 42001 and NIST AI RMF to live signals: logging continuity, automatic model inventory and incident watch. An evidence layer for auditors, not legal advice.
 
-- Production GenAI architecture and the path from prototype to operation
-- Repeatable evaluation at component and system level
-- Observability for quality, cost, latency and failure analysis
-- Security, data boundaries and controlled tool access
+### 3. Agents under control
+
+- **[ftp-deploy-mcp](https://github.com/alebgl77/ftp-deploy-mcp)**: an MCP deployment server for FTP, FTPS and SFTP with local-root confinement, SFTP host-key pinning, SHA-256-verified staged promotion, explicit human confirmation and rollback.<br><sub>npm · Official MCP Registry · listed in awesome-mcp-servers · 43 scripted scenarios run in English and French against the real MCP SDK client</sub>
+- **[tierdecay](https://github.com/alebgl77/tierdecay)**: a per-repo learning layer for AI coding routers. It moves a recurring task class to a cheaper tier only after statistically confirmed successes, and recertifies it when models change.<br><sub>pilot: 0.66× frontier cost per task (95% interval 0.63–0.69), 24% saved against always-frontier · SBOM · OCI image · MCP server</sub>
+- **[claude-inc](https://github.com/alebgl77/claude-inc)**: a Claude Code plugin that runs a project as a virtual company, with peer CEO, CTO and CAIO, nine departments, 64 skill manuals, bounded review loops and SHA-256 records of every submitted artifact.<br><sub>v1.5 · the most-starred project of this profile</sub>
+- **[harnessmeter](https://github.com/alebgl77/harnessmeter)**: an offline context profiler for Claude Code and Codex that measures the token footprint of instructions and skills, enforces CI budgets against a baseline and proposes evidence-graded demotions.<br><sub>npm · zero dependencies · CI on Linux, macOS and Windows</sub>
+
+Also: **[generative-engine-monitor](https://github.com/alebgl77/generative-engine-monitor)** measures brand visibility in AI answers, comparing parametric and web-grounded modes with bootstrap confidence intervals. **[awesome-ai-architect](https://github.com/alebgl77/awesome-ai-architect)** is a self-updating map of the GenAI engineering stack, classified daily by GitHub Actions ([interactive explorer](https://alebgl77.github.io/awesome-ai-architect/)).
+
+## Upstream contributions
+
+- **[LibreChat](https://github.com/LibreChat-AI/LibreChat/pull/15046)**: merged. Made `CLAUDE.md` portable by replacing a machine-specific agents source path, and restored `CLAUDE.md`/`AGENTS.md` parity for auth-cache guidance.
+- **[AgentShield](https://github.com/affaan-m/agentshield/pull/123)**: merged. The scanner now discovers and classifies root `.mcp.json` files, so MCP configurations reach the security rules, with regression coverage; all 16 review threads were resolved.
+- **[Claude SEO](https://github.com/AgriciDaniel/claude-seo/pull/285)**: improved JSON-LD detection and removed template-expression false positives. The maintainer [confirmed](https://github.com/AgriciDaniel/claude-seo/pull/285#issuecomment-5623681972) it landed in v2.3.0 with authorship preserved.
+- **Grafana plugin-tools**: two merged contributions, [signed-commit contributor guidance](https://github.com/grafana/plugin-tools/pull/2841) and a [Node 24 `.nvmrc` scaffold update](https://github.com/grafana/plugin-tools/pull/2830).
+- **In review**: [OpenTelemetry GenAI semantic conventions](https://github.com/open-telemetry/semantic-conventions-genai/pull/516), recording token usage on `fetch_response` spans, and [LangChain OpenWiki](https://github.com/langchain-ai/openwiki/pull/818), Mistral as a model provider.
+
+## Pour les DSI et CTO
+
+J'accompagne des ETI, des startups et des e-commerçants du cadrage à l'industrialisation de la GenAI. Les dépôts ci-dessus montrent la méthode ; en mission, je l'applique à votre SI, à vos données et à vos contraintes.
+
+- **Cadrage et architecture** : cas d'usage, build vs buy, RAG, systèmes multi-agents (LangGraph), choix des modèles et de l'hébergement.
+- **Mise en production mesurable** : évaluation (RAGAS), observabilité, coûts par équipe et par modèle, SLO de qualité et de latence.
+- **Gouvernance et conformité** : inventaire du Shadow AI, traçabilité et preuves d'audit au regard de l'AI Act, de l'ISO/IEC 42001 et du NIST AI RMF, contrôle des accès des agents aux outils.
+- **CAIO externalisé et formation** : feuille de route IA, conduite du changement, montée en compétence des équipes sur Claude Code et les systèmes agentiques.
+
+Échangeons sur votre projet : [beguel.com](https://beguel.com/) · [LinkedIn](https://www.linkedin.com/in/beguel/)
+
+## Working principles
+
+- Start with the problem, constraints and failure modes.
+- Treat evaluation and observability as product requirements.
+- Minimize privileges and data exposure; make consequential actions explicit.
+- Prefer simple, reviewable components and measurable automation.
 
 ## Core tools and technologies
 
@@ -228,13 +252,6 @@ A focused stack for agentic orchestration, evaluation, serving and cloud-native 
 </tr>
 </table>
 </div>
-
-## Working principles
-
-- Start with the problem, constraints and failure modes.
-- Treat evaluation and observability as product requirements.
-- Minimize privileges and data exposure; make consequential actions explicit.
-- Prefer simple, reviewable components and measurable automation.
 
 ## Contact
 
