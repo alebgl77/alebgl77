@@ -4,7 +4,7 @@
 
 I design agentic systems and the layer most teams skip: telemetry, cost attribution, evaluation coverage, audit evidence and least-privilege tool access. Independent Data & AI consultant and external CAIO based in Paris, with 20 years across IT, data and AI.
 
-[View consulting work](https://beguel.com/) · [Connect on LinkedIn](https://www.linkedin.com/in/beguel/) · [En français](#en-mission)
+[View consulting work](https://beguel.com/) · [Connect on LinkedIn](https://www.linkedin.com/in/beguel/) · [En français](#missions--conseil)
 
 > **Proof, not slides.** A cheaper model tier at **0.66×** frontier cost in a 36-run pilot · **63/63** generated PromQL queries executed on a real Prometheus · E2E CI on **Grafana 9.5 → 13.2** · an MCP server on the **Official MCP Registry** · merged upstream work in **LibreChat**, **AgentShield** and **Grafana plugin-tools**.
 
@@ -40,7 +40,7 @@ Also: **[generative-engine-monitor](https://github.com/alebgl77/generative-engin
 - **Grafana plugin-tools**: two merged contributions, [signed-commit contributor guidance](https://github.com/grafana/plugin-tools/pull/2841) and a [Node 24 `.nvmrc` scaffold update](https://github.com/grafana/plugin-tools/pull/2830).
 - **In review**: [OpenTelemetry GenAI semantic conventions](https://github.com/open-telemetry/semantic-conventions-genai/pull/516), recording token usage on `fetch_response` spans, and [LangChain OpenWiki](https://github.com/langchain-ai/openwiki/pull/818), Mistral as a model provider.
 
-## En mission
+## Missions & conseil
 
 J'accompagne des ETI, des startups et des e-commerçants du cadrage à l'industrialisation de la GenAI. Les dépôts ci-dessus montrent la méthode ; en mission, je l'applique à votre SI, à vos données et à vos contraintes.
 
