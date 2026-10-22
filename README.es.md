@@ -22,7 +22,7 @@ Acompaño a los equipos desde la arquitectura hasta la puesta en producción de 
 ### Evidencias consultables
 
 - **Forge:** [Consultas PromQL generadas ejecutadas en Prometheus y comprobaciones E2E de Grafana](https://github.com/alebgl77/grafana-llmops-forge#how-this-is-verified). La revisión visual semántica es un paso separado, realizado por una persona o un agente.
-- **TierDecay:** [piloto controlado y replay del protocolo](https://github.com/alebgl77/tierdecay/blob/main/benchmarks/pilot-v1/RESULTS.md): 36 ejecuciones + 3 destilaciones; **24 % de ahorro estimado en replay** frente a always-frontier. El resultado **0,657×** compara el modelo rápido en frío con el modelo frontier en frío. Ambos resultados se limitan a esta fixture.
+- **TierDecay:** [piloto controlado y replay del protocolo](https://github.com/alebgl77/tierdecay/blob/main/benchmarks/pilot-v1/RESULTS.md): 36 ejecuciones + 3 destilaciones; **24 % de ahorro estimado en replay** frente a always-frontier. El resultado **0,657×** compara el modelo rápido sin playbook con frontier, con costes normalizados de caché caliente. Ambos resultados se limitan a esta fixture.
 - **FTP Deploy MCP:** [43 escenarios programados en cada uno de los idiomas inglés y francés](https://github.com/alebgl77/ftp-deploy-mcp), con un cliente SDK MCP real y un adaptador remoto en memoria. El repositorio documenta por separado la validación de transportes y clientes.
 
 ### Herramientas complementarias

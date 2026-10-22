@@ -22,7 +22,7 @@ I help teams take GenAI from architecture to production, with measurable quality
 ### Evidence you can inspect
 
 - **Forge:** [Generated PromQL queries executed against Prometheus and Grafana E2E checks](https://github.com/alebgl77/grafana-llmops-forge#how-this-is-verified). Semantic visual review is a separate human/agent step.
-- **TierDecay:** [controlled pilot and protocol replay](https://github.com/alebgl77/tierdecay/blob/main/benchmarks/pilot-v1/RESULTS.md): 36 executor runs + 3 distillations; **24% estimated savings in replay** versus always-frontier. The **0.657×** result compares the cold fast tier with the cold frontier tier. Both results are bounded to this fixture.
+- **TierDecay:** [controlled pilot and protocol replay](https://github.com/alebgl77/tierdecay/blob/main/benchmarks/pilot-v1/RESULTS.md): 36 executor runs + 3 distillations; **24% estimated savings in replay** versus always-frontier. The **0.657×** result compares the fast tier without a playbook with frontier, using normalized warm-cache costs. Both results are bounded to this fixture.
 - **FTP Deploy MCP:** [43 scripted scenarios in each of English and French](https://github.com/alebgl77/ftp-deploy-mcp), using a real MCP SDK client and an in-memory remote adapter. The repository documents transport and client qualification separately.
 
 ### Supporting tools
